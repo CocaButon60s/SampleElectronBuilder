@@ -1,0 +1,28 @@
+{
+  "name": "electronbuilder",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "license": "MIT",
+  "author": "Hiroyuki Ikuno",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "volta": {
+    "node": "24.11.0",
+    "npm": "11.6.1"
+  },
+  "devDependencies": {
+    "electron": "^39.1.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.example.electronbuilder",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}

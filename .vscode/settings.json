@@ -1,0 +1,13 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "${env:Path};C:\\Program Files\\Volta"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
