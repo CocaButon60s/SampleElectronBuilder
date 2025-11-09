@@ -22,7 +22,20 @@
   "build": {
     "appId": "com.example.electronbuilder",
     "win": {
-      "target": "nsis"
-    }
+      "target": "portable"
+    },
+    "extraResources": [
+      {
+        "from": "src/dist/",
+        "to": "."
+      },
+      {
+        "from": "src/ercd.json",
+        "to": "./ercd.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "iconv-lite": "^0.7.0"
   }
 }
