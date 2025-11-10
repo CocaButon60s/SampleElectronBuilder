@@ -28,10 +28,6 @@
       {
         "from": "src/dist/",
         "to": "."
-      },
-      {
-        "from": "src/ercd.json",
-        "to": "./ercd.json"
       }
     ]
   },

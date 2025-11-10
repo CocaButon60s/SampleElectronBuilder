@@ -1,9 +1,0 @@
-{
-  "OK": 0,
-  "ERR_ARGS": 1,
-  "ERR_FILE_NOT_FOUND": 2,
-  "ERR_BAD_ZIP_FILE": 3,
-  "ERR_WRONG_PASSWORD": 4,
-  "ERR_IO": 5,
-  "ERR_UNKNOWN": 99
-}

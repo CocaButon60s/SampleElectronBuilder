@@ -5,7 +5,7 @@ a = Analysis(
     ['decrypt.py'],
     pathex=[],
     binaries=[],
-    datas=[('ercd.json', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
